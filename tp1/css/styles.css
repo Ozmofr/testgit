@@ -1,0 +1,7 @@
+/* Feuille de styles CSS */
+table, tr, td, th{
+    border: 2px solid black;
+}
+ h1, h2, h3, p{
+    font-family: Arial, Helvetica, sans-serif;
+ }
