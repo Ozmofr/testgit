@@ -1,7 +1,38 @@
 /* Feuille de styles CSS */
-table, tr, td, th{
-    border: 2px solid black;
+table, th{
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+
 }
- h1, h2, h3, p{
-    font-family: Arial, Helvetica, sans-serif;
- }
+td, tr{
+    border: 1px solid black;
+}
+h1, h2, h3, p{
+    
+}
+
+a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+h1{
+    
+}
+
+.blueitalic{
+    color: rgb(13, 107, 228);
+    font-style: italic;
+}
+
+body{
+    background-color: #eeeeee;
+}
+
+.container{
+    width: 600px;
+    margin: auto;
+    padding: 32px;
+    background-color: white;
+}

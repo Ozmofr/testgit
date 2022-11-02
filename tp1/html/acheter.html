@@ -3,34 +3,74 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="../css/styles.css">
     </head>
 <body>
-LEGO WebStore
+<div class="container">
+<h1>LEGO WebStore</h1>
+<hr style="height: 1px; background-color: black;">
+<ul>
+    <li><a href="produit.html">Produit</a></li>
+    <li><a href="acheter.html">Acheter</a></li>
+</ul>
 
-Produit
-Acheter
+<hr style="height: 0,5px; background-color: black;">
 
-Acheter des LEGO
+<h2>Acheter des LEGO</h2>
 
-Remplissez le formulaire ci-dessous pour commander des LEGO !
+<p>Remplissez le formulaire ci-dessous pour commander des <span class="blueitalic">LEGO</span>!</p>
 
-Informations personnelles
-Civilité: M. Mme.
-Nom:
-Prénom:
-Mail:
+<h3>Informations personnelles </h3>
+<p>Civilité:</p> 
+<form action="">
+    <input type="radio">
+    <label for="name">M.</label>
+    <input type="radio">
+    <label for="name">Mme.</label>
 
-Informations de livraison
-Quantité commandée: 1 boîte 2 boîtes 3 boîtes 4 boîtes 5 boîtes
-Adresse de livraison:
 
-Confirmation
-J'ai relu ma commande et certifie que ces informations sont correctes.
+<p>Nom: </p>
+<input type="text">
+<p>Prenom: </p>
+<input type="text">
+<p>Mail: </p>
+<input type="text">
 
-Retour en haut de page
-TP1 : Découverte de HTML et CSS
-L2 Développement Web - 2018
+
+<h3>Informations de livraison </h3>
+<p>Quantité commandée:</p>
+<select name="boites">
+    <option value="1 boite">1 boite</option>
+    <option value="2 boites">2 boites</option>
+    <option value="3 boites">3 boites</option>
+</select> <br>
+<p>Adresse de livraison:</p>
+
+<textarea cols="10" rows="2"></textarea>
+
+         <h3>Confirmation</h3> 
+            
+             <p><input type="checkbox">J'ai relu ma commande et certifie que ces informations sont correctes.</p> 
+
+            <input type="button"value="confirmer la commande">
+
+            <hr style="height: 0,5px; background-color: black;">
+
+            <a href="#" class="btn btn-default"><b>Retour en haut de page</b></a>
+
+            <br>
+
+
+           <p>Auteur: Alexandre Saint-prix</p>
+
+          <p>ULCO | Développement web | 2017-2018</p>
+
+            <p> Copyright (c) 2017 Copyright Holder All Rights Reserved.</p>
+
+    </body>
+</div>
+</div>
+</html>
 </body>
 
 </html>
